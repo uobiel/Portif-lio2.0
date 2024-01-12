@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body {
+    background-color: #071322;
+    display: flex;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    color: #B8BFFF;
+    width: 100%;
+    height: 100px;
+    background-color: #0a1829;
+    position: absolute;
+    top: -30px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('img/1.jpg');
+}
+
+.perfil {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-right: 30px;
+    display: flex;
+    position: absolute;
+    top: -40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.name {
+    margin-left: 150px;
+    font-size: 25px;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.perfil img {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    width: 100%;
+    text-align: end;
+}
+
+.links a {
+    text-decoration: none;
+    color: #B8BFFF;
+    margin-right: 50px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    flex-direction: column;
+}
+
+.hard-skills {
+    color: #B8BFFF;
+    font-size: 40px;
+    text-align: justify;
+    margin: 50px;
+    border-bottom: 1px solid;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.text > p {
+    color: #B8BFFF;
+    font-size: 50px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me {
+    color: #B8BFFF;
+    font-size: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.about-me p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card {
+    height: 200px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(0.99);
+}
+
+#card1 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+#card2 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+#card3 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+#card4 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+#card5 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+#card6 {
+    background-color: #071322; /* Cinza claro */
+    color: #B8BFFF;
+}
+
+.language {
+    margin: 10px;
+    font-size: 50px;
+    z-index: 1526585;
+}
+
+.linha {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 940px) {
+    .linha {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .language {
+        font-size: 30px;
+    }
+
+    .text p {
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .perfil {
+        left: 0;
+    }
+
+    .name {
+        margin-left: 300px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .perfil{
+        display: none;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links a {
+        margin: 4%;
+    }
+
+    .name {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
