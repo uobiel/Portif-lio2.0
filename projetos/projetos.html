@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projetos.css">
+    <title>Gabriel Antunes</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="perfil">
+                <img src="../img/Screenshot_2.png" alt="">
+            </div>
+
+            <div class="name">
+                <p>Gabriel Antunes</p>
+            </div>
+
+            <div class="links">
+                <a class="menu" href="../index.html">Início</a>
+                <a class="menu" href="https://www.linkedin.com/in/gabriel-antunes-873531208/" target="_blank">Linkedin</a>
+                <a class="menu" href="https://www.instagram.com/uobiel/" target="_blank">Social</a>
+                <a class="menu" href="https://api.whatsapp.com/send?phone=5551993180317" target="_blank">Contato</a>
+            </div>
+
+        </div>
+
+
+        <div class="cards">
+
+            <div class="linha">
+                <div class="card" id="card1">
+                    <p class="language">Projeto Barbearia</p>
+                </div>
+                <div class="card" id="card2">
+                    <p class="language">Tarefas</p>
+                </div>
+
+            </div>
+
+            <div class="linha">
+                <div class="card" id="card3">
+                    <p class="language">Calculadora Simples</p>
+                </div>
+                <div class="card" id="card4">
+                    <p class="language">Em desenvolvimento</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    <script>
+        var projetoBarbearia = document.querySelector('#card1');
+        var projetoTarefas = document.querySelector('#card2');
+        var projetoCalculadora = document.querySelector('#card3');
+
+        projetoBarbearia.addEventListener('click', function(){
+            window.open('https://uobiel.github.io/projetoBarbearia/', '_blank');
+        })
+
+        projetoTarefas.addEventListener('click', function(){
+            window.open('https://uobiel.github.io/gerenciadorTarefas/', '_blank');
+        })
+
+        projetoCalculadora.addEventListener('click', function(){
+            window.open('https://uobiel.github.io/calculadora/', '_blank');
+        })
+
+    </script>
+
+    
+</body>
+
+</html>

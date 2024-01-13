@@ -29,7 +29,8 @@ body {
 
 .container {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('img/1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/1.jpg');
+    height: 100%;
 }
 
 .menu:hover {
@@ -78,7 +79,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    /* margin-top: 50px; */
+    margin-top: 150px;
+    margin-bottom: 100px;
     flex-direction: column;
 }
 
@@ -90,40 +92,10 @@ body {
     border-bottom: 1px solid;
 }
 
-.text {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-}
-
-.text > p {
-    color: #B8BFFF;
-    font-size: 50px;
-    text-align: justify;
-    font-family: 'Poppins', sans-serif;
-}
-
-.about-me {
-    color: #B8BFFF;
-    font-size: 20px;
-    width: 100%;
-    max-width: 600px;
-    text-align: justify;
-    margin: 20px;
-}
-
-.about-me p {
-    font-family: 'Poppins', sans-serif;
-
-}
-
 .card {
-    height: 200px;
+    height: 300px;
     width: 100%;
-    max-width: 400px;
+    max-width: 700px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
