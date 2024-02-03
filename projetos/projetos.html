@@ -46,20 +46,29 @@
 
             <div class="linha">
                 <div class="card" id="card3">
-                    <p class="language">Projeto Tarefas</p>
+                    <p class="language">Projeto Gestão Universitária</p>
                 </div>
                 <div class="card" id="card4">
                     <p class="language">Projeto Calculadora Simples</p>
                 </div>
+            </div>
 
+            <div class="linha">
+                <div class="card" id="card5">
+                    <p class="language">Projeto Tarefas</p>
+                </div>
+                <div class="card" id="card6">
+                    <p class="language">Em Desenvolvimento</p>
+                </div>
             </div>
         </div>
 
     <script>
         var projetoHamburgueria = document.querySelector('#card1');
         var projetoBarbearia = document.querySelector('#card2');
-        var projetoTarefas = document.querySelector('#card3');
+        var projetoGestaoUniversitaria = document.querySelector('#card3');
         var projetoCalculadora = document.querySelector('#card4');
+        var projetoTarefas = document.querySelector('#card5')
 
         projetoHamburgueria.addEventListener('click', function(){
             window.open('https://uobiel.github.io/projetoHamburgueria/', '_blank');
@@ -69,12 +78,16 @@
             window.open('https://uobiel.github.io/projetoBarbearia/', '_blank');
         })
 
-        projetoTarefas.addEventListener('click', function(){
-            window.open('https://uobiel.github.io/gerenciadorTarefas/', '_blank');
+        projetoGestaoUniversitaria.addEventListener('click', function(){
+            window.open('https://uobiel.github.io/gestaoUniversitaria/', '_blank');
         })
 
         projetoCalculadora.addEventListener('click', function(){
             window.open('https://uobiel.github.io/calculadora/', '_blank');
+        })
+
+        projetoTarefas.addEventListener('click', function(){
+            window.open('https://uobiel.github.io/gerenciadorTarefas/', '_blank');
         })
 
     </script>
